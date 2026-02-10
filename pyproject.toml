@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  {name = "Nalini Kumar", email = "nalinikumar.devi@gmail.com"},
+]
+name = "lab1_package"
+version = "0.1.0"
+readme = "README.md"
