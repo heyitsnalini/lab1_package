@@ -7,7 +7,7 @@ authors = [
   {name = "Nalini Kumar", email = "nalinikumar.devi@gmail.com"},
 ]
 name = "lab1_package"
-version = "0.1.0"
+version = "0.1.1"
 readme = "README.md"
 
 [tool.setuptools.packages.find]
