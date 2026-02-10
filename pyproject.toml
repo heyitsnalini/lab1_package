@@ -9,3 +9,6 @@ authors = [
 name = "lab1_package"
 version = "0.1.0"
 readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
