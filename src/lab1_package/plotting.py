@@ -26,7 +26,7 @@ def plotting_draft(data,ylim1,ylim2,ylim3):
 
     plt.show()
 
-def plotting_draft2(data,ylim1,ylim2,ylim3):
+def plotting_draft2(data,ylim1, xlim1, ylim2, xlim2, ylim3):
     vspec = np.fft.fft(data)
     pspec = np.abs(vspec)**2
     
@@ -37,9 +37,9 @@ def plotting_draft2(data,ylim1,ylim2,ylim3):
     ax2.plot(np.arange(len(pspec))-1000, pspec)
     ax3.plot(np.arange(len(data)), data)
 
-    ax1.set_xlim(-1000,1000)
+    ax1.set_xlim(-xlim1,xlim1)
     ax1.set_ylim(-ylim1,ylim1)
-    ax2.set_xlim(-1000,1000)
+    ax2.set_xlim(-xlim2,xlim2)
     ax2.set_ylim(0,ylim2)
     ax3.set_xlim(500, 2000)
     ax3.set_ylim(-ylim3,ylim3)
