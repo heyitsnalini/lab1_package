@@ -11,5 +11,5 @@ version = "0.1.3"
 readme = "README.md"
 
 [tool.setuptools]
-packages = {find = {where = ["src"]}}
-package-dir = {""="src"}
+packages = {find = {where = ["lab1_package"]}}
+package-dir = {""="lab1_package"}
